@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>phasezero.space — CircuitFlare</title>
+  <meta name="description" content="Phase Zero — creative playground by CircuitFlare" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo">⦿</div>
+      <div>
+        <h1>phasezero.space</h1>
+        <p class="tag">A tiny creative playground by CircuitFlare</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <h2 class="hero-title">Welcome to phasezero</h2>
+        <p class="hero-sub">A minimal, fast, and playful spot to test ideas, visuals, and small projects.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#projects">Explore</a>
+          <button class="btn ghost" id="surpriseBtn">Surprise me</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="panel">
+      <div class="panel-grid">
+        <article class="glass">
+          <h3>Fast & Minimal</h3>
+          <p>Small static site, zero dependencies, easy to fork and extend.</p>
+        </article>
+        <article class="glass">
+          <h3>Creative Experiments</h3>
+          <p>Interactive visuals, tiny games, and experiments live here.</p>
+        </article>
+        <article class="glass">
+          <h3>Built for GitHub Pages</h3>
+          <p>Drop these files in your repo and enable Pages — simple.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="panel alt">
+      <h3 class="section-title">Featured</h3>
+      <div class="cards">
+        <div class="card">
+          <h4>Starfield</h4>
+          <p>Canvas-driven, lightweight particle background with parallax.</p>
+          <a class="card-link" href="#home">See it</a>
+        </div>
+        <div class="card">
+          <h4>Micro Experiments</h4>
+          <p>Small JS demos you can fork and remix.</p>
+          <a class="card-link" href="#contact">Get involved</a>
+        </div>
+        <div class="card">
+          <h4>Notes & Ideas</h4>
+          <p>Short posts and prototypes, updated frequently.</p>
+          <a class="card-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="panel">
+      <h3 class="section-title">Get in touch</h3>
+      <p>Open to collabs, experiments, and tiny art. Drop a note on GitHub or create an issue.</p>
+      <div class="foot-links">
+        <a class="pill" href="https://github.com/CircuitFlareDev/phasezero.space" target="_blank" rel="noopener">Repo</a>
+        <a class="pill" href="mailto:hi@phasezero.space">Email</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© CircuitFlare — phasezero.space</small>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
